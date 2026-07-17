@@ -3,22 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Mohamed Amellah</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Amellah Mohamed</title>
   </head>
   <body>
-    <header id="home">
+    <header>
       <nav>
-        <a href="" class="logo">Amellah Mohamed</a>
+        <h1>Mohamed Amellah</h1>
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Project</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-      <div class="container">
-        <!-- <h1>Amellah Mohamed</h1> -->
-      </div>
     </header>
+    <main id="home">
+      <div class="card-container">
+        <div class="details-section">
+          <div class="header-block">
+            <h1>Amellah<br />Mohamed</h1>
+          </div>
+
+          <div class="bio-block">
+            <p>Web developper</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+212 751556362</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>amellah.dev@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Sale, Hay Salam</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <span>amellahdev-glitch</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-section">
+          <img
+            src="https://media.gettyimages.com/id/1210561019/photo/webpage.jpg?s=1024x1024&w=gi&k=20&c=Ht_P3xbLyx-f7NjbijbAJnNzYzVGtmUkA-e6Upe4Zu4="
+            alt="Amellah Mohamed"
+          />
+        </div>
+      </div>
+      <div class="motivation-block">
+        <h3>
+          Motivated and passionate Full-Stack Web Development student seeking
+          internship opportunities to gain hands-on experience and strengthen
+          practical software development skills. Proficient in HTML, CSS,
+          JavaScript, PHP, MySQL, Python, and Bootstrap, with a solid foundation
+          in front-end and back-end development. Eager to learn, solve
+          real-world problems, and contribute to innovative projects while
+          continuously improving technical and communication skills.
+        </h3>
+      </div>
+    </main>
+
+    <!--? skills section container -->
+
+    <main id="skills">
+      <div class="card-container">
+        <div class="details-section">
+          <div class="header-block space">
+            <h1>Skills</h1>
+          </div>
+
+          <div class="card-items">
+            <div class="card-block">Python</div>
+            <div class="card-block">HTML</div>
+            <div class="card-block">CSS</div>
+            <div class="card-block">PHP</div>
+            <div class="card-block">MySQL</div>
+            <div class="card-block">Bootstrap</div>
+            <div class="card-block">Java Script</div>
+            <div class="card-block">JQuery</div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
